@@ -9,10 +9,10 @@ export default function ProjectCard(project: ProjectCardProps) {
     <div className="flex gap-4 rounded-xl border border-dashed border-neutral-300 p-2 transition-all duration-300 hover:border-neutral-500 dark:border-neutral-600 dark:hover:border-neutral-400">
       <Image
         src={project.imageUrl}
-        width={270}
-        height={280}
+        width={280}
+        height={160}
         alt={project.title}
-        className="rounded-md pointer-events-none select-none"
+        className="rounded-md pointer-events-none select-none h-40"
       />
 
       <div className="flex flex-col justify-center gap-3">
