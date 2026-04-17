@@ -3,7 +3,7 @@ import Socials from "./Social";
 
 export default function Hero() {
   return (
-    <main>
+    <main className="mb-20">
       <div className="flex items-center gap-6">
         <Image
           alt="waqas"
