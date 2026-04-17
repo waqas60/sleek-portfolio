@@ -12,7 +12,7 @@ export default function ProjectCard(project: ProjectType) {
         width={280}
         height={160}
         alt={project.title}
-        className="rounded-md pointer-events-none select-none h-40"
+        className="rounded-xl pointer-events-none select-none h-40"
       />
 
       <div className="flex flex-col justify-center gap-3">
