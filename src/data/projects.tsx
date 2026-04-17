@@ -1,6 +1,6 @@
-import { ProjectCardProps } from "@/types/project";
+import { ProjectType } from "@/types/project";
 
-const projects: ProjectCardProps[] = [
+const projects: ProjectType[] = [
   {
     title: "NexusFlow",
     description:

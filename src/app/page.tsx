@@ -1,3 +1,4 @@
+import Blog from "@/components/Blog";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="px-8 mt-10">
       <Hero />
       <Projects />
+      <Blog />
     </div>
   );
 }

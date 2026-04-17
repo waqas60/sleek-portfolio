@@ -6,7 +6,7 @@ import ToggleTheme from "./ToggleTheme";
 const items = [
   { href: "/", title: "Home" },
   { href: "/projects", title: "Projects" },
-  { href: "/blog", title: "Blog" },
+  { href: "/blogs", title: "Blog" },
 ];
 
 export default function Navbar() {

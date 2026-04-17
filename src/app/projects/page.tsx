@@ -1,6 +1,6 @@
 import Projects from "@/components/Projects";
 
-export default function ProjectPage() {
+export default function page() {
   return (
     <div className="mx-8 h-screen">
       <Projects />

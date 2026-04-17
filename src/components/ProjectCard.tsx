@@ -1,12 +1,12 @@
-import { ProjectCardProps } from "@/types/project";
+import { ProjectType } from "@/types/project";
 import { FaGithub } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ProjectCard(project: ProjectCardProps) {
+export default function ProjectCard(project: ProjectType) {
   return (
-    <div className="flex gap-4 rounded-xl border border-dashed border-neutral-300 p-2 transition-all duration-300 hover:border-neutral-500 dark:border-neutral-600 dark:hover:border-neutral-400">
+    <div className="flex gap-4 rounded-xl border  border-neutral-200 p-2 transition-all duration-300 hover:border-neutral-300 dark:border-neutral-600 dark:hover:border-neutral-500">
       <Image
         src={project.imageUrl}
         width={280}
