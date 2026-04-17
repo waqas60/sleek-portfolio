@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Socials from "./Social";
 
-export default function Landing() {
+export default function Hero() {
   return (
     <main>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-6">
         <Image
           alt="waqas"
           src={"/assets/logo.jpg"}
@@ -24,6 +25,9 @@ export default function Landing() {
           </p>
         </div>
       </div>
+
+      
+      <Socials />
     </main>
   );
 }
