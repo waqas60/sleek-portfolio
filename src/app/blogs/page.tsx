@@ -1,7 +1,9 @@
-import React from 'react'
+import Blog from "@/components/Blog";
 
 export default function page() {
   return (
-    <div>page</div>
-  )
+    <div className="mx-8 h-screen">
+      <Blog />
+    </div>
+  );
 }

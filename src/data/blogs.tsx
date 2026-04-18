@@ -5,7 +5,7 @@ const blogs: BlogType[] = [
     title: "Hello World in Rust with Axum",
     description:
       "A minimal Hello World web server using Rust and the Axum framework.",
-    link: "https://www.narsibhati.com/blogs/hello-world",
+    slug: "hello-world-in-rust-with-axum",
     date: "Jan 03, 2026",
   },
 ];

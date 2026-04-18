@@ -1,6 +1,6 @@
 export type BlogType = {
   title: string;
   description: string;
-  link: string;
+  slug: string;
   date: string;
 };

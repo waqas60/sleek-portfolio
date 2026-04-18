@@ -17,8 +17,8 @@ const projects: ProjectType[] = [
       "Turn tweets into beautiful, shareable images for LinkedIn, Instagram, and beyond",
     imageUrl: "/projects/coming_soon.png",
     status: STATUS.BUILDING,
-    projectLink: "https://nexusflow-gilt.vercel.app/",
-    githubLink: "https://github.com/waqas60/nexusflow",
+    projectLink: "",
+    githubLink: "",
     tagsName: ["coming soon"],
   },
 ];

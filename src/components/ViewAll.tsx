@@ -14,7 +14,7 @@ export default function ViewAll({ link }: ViewAllType) {
     >
       <Link
         href={link}
-        className="absolute right-0 -bottom-10 text-xs p-1 rounded-md w-fit flex group justify-center"
+        className="absolute right-0 -bottom-10 text-[10px] text-neutral-600 p-1 rounded-md w-fit flex group justify-center"
       >
         View All
         <MdKeyboardArrowRight

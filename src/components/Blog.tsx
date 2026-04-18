@@ -20,7 +20,7 @@ export default function Blog() {
             key={index}
             title={blog.title}
             description={blog.description}
-            link={blog.link}
+            slug={blog.slug}
             date={blog.date}
           />
         );

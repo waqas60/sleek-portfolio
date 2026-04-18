@@ -1,10 +1,13 @@
 import Link from "next/link";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-export default function AnimatedReadMoreBtn() {
+export default function AnimatedReadMoreBtn({ slug }: { slug: string }) {
   return (
     <div>
-      <Link href={"/blogs"} className="group text-[11px] flex gap-2 items-center">
+      <Link
+        href={`/blogs/${slug}`}
+        className="group text-[11px] flex gap-2 items-center"
+      >
         Read more
         <MdKeyboardArrowRight
           size={15}
