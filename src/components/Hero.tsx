@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Socials from "./Social";
 import { motion } from "motion/react";
+import Role from "./Role";
 
 export default function Hero() {
   return (
@@ -24,9 +25,7 @@ export default function Hero() {
         <div>
           <div className="flex items-center gap-2">
             <h1 className="text-xl font-bold">Muhammad Waqas</h1>
-            <p className="w-fit rounded-full border border-dashed border-neutral-400 p-1 text-[9px]">
-              FullStack Developer
-            </p>
+            <Role />
           </div>
           <p className="mt-1 w-full max-w-[80%] text-xs leading-relaxed text-neutral-500 dark:text-neutral-400">
             Love to build cool stuff

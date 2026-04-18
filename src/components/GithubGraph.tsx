@@ -18,6 +18,7 @@ export default function GithubGraph() {
       <div className="flex w-full justify-center overflow-x-auto rounded-2xl border border-neutral-200 p-4 dark:border-neutral-600">
         <GitHubCalendar
           username="waqas60"
+          year={2026}
           blockSize={8}
           blockMargin={3}
           fontSize={10}

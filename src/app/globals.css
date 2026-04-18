@@ -19,4 +19,16 @@
   --foreground: var(--color-neutral-50);
 }
 
+@keyframes textCycle {
+  0%   { opacity: 0; transform: translateY(20px); }
+  5%   { opacity: 1; transform: translateY(0); }
+  43%  { opacity: 1; transform: translateY(0); }
+  49%  { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 0; }
+}
 
+.animate-textCycle {
+  position: absolute;
+  opacity: 0;
+  animation: textCycle 6s infinite;
+}
