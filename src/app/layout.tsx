@@ -31,17 +31,17 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable}  antialiased text-foreground bg-background selection:bg-neutral-900 selection:text-neutral-50 dark:selection:bg-neutral-50 dark:selection:text-neutral-900`}
+      className={`${geistSans.variable} ${geistMono.variable} antialiased text-foreground bg-background selection:bg-neutral-900 selection:text-neutral-50 dark:selection:bg-neutral-50 dark:selection:text-neutral-900`}
     >
       <body className="min-h-full flex flex-col">
         <ThemeModeProvider>
           <div className="fixed inset-0 -z-10 bg-[repeating-linear-gradient(315deg,var(--pattern-fg)_0,var(--pattern-fg)_1px,transparent_0,transparent_50%)] bg-size-[10px_10px] [--pattern-fg:rgba(0,0,0,0.02)] dark:[--pattern-fg:rgba(255,255,255,0.03)]" />
 
-          <div className=" w-full max-w-170 mx-auto bg-white  min-h-screen dark:bg-neutral-800 shadow-md">
+          <div className="w-full max-w-170 mx-auto bg-white min-h-screen dark:bg-neutral-800 shadow-md flex flex-col">
             <Navbar />
             {children}
             <OnekoCat />
-            <div className="flex items-center gap-4 flex-col justify-center  text-xl">
+            <div className="flex items-center gap-4 flex-col justify-center text-xl pb-6">
               <Socials />
               <Footer />
             </div>
