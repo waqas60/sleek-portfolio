@@ -1,11 +1,8 @@
 import Blog from "@/components/Blog";
-import Footer from "@/components/Footer";
 import GithubGraph from "@/components/GithubGraph";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
-import Socials from "@/components/Social";
 import ViewAll from "@/components/ViewAll";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,10 +17,6 @@ export default function Home() {
         <ViewAll link="/blogs" />
       </div>
       <GithubGraph />
-      <div className="flex items-center gap-4 flex-col justify-center mb-20 text-xl">
-        <Socials />
-        <Footer/>
-      </div>
     </div>
   );
 }

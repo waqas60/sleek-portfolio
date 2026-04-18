@@ -3,6 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import ThemeModeProvider from "@/components/ThemeModeProvider";
+import OnekoCat from "@/components/common/OnekoCat";
+import Footer from "@/components/Footer";
+import Socials from "@/components/Socials";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +40,11 @@ export default function RootLayout({
           <div className=" w-full max-w-170 mx-auto bg-white  min-h-screen dark:bg-neutral-800 shadow-md">
             <Navbar />
             {children}
+            <OnekoCat />
+            <div className="flex items-center gap-4 flex-col justify-center  text-xl">
+              <Socials />
+              <Footer />
+            </div>
           </div>
         </ThemeModeProvider>
       </body>

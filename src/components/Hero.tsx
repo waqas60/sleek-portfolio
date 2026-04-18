@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Socials from "./Social";
+import Socials from "./Socials";
 import { motion } from "motion/react";
 import Role from "./Role";
 
