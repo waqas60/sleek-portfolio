@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 export default function Footer() {
   return (
     <motion.p
-      className="text-[10px] text-neutral-600 leading-tight tracking-wider mx-auto dark:text-neutral-400 flex flex-wrap justify-center gap-x-0.5 mb-10 px-4 text-center"
+      className="text-[10px] text-neutral-600 leading-tight tracking-wider mx-auto dark:text-neutral-400 flex flex-wrap justify-center gap-x-0.5 mb-4 px-4 text-center"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}

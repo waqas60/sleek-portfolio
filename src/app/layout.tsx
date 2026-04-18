@@ -39,7 +39,7 @@ export default function RootLayout({
 
           <div className="w-full max-w-170 mx-auto bg-white min-h-screen dark:bg-neutral-800 shadow-md flex flex-col">
             <Navbar />
-            {children}
+            <main className="flex-1">{children}</main>
             <OnekoCat />
             <div className="flex items-center gap-4 flex-col justify-center text-xl pb-6">
               <Socials />
