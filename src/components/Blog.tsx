@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 export default function Blog() {
   return (
     <motion.div
-      className="grid grid-cols-1 gap-4"
+      className="mt-8 grid grid-cols-1 gap-4"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
