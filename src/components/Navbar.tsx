@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import ToggleTheme from "./ToggleTheme";
+import { motion } from "motion/react";
 
 const items = [
   { href: "/", title: "Home" },
@@ -13,7 +14,12 @@ export default function Navbar() {
   const [active, setActive] = useState("Home");
 
   return (
-    <div className="flex h-20 items-center justify-end px-6 mr-4">
+    <motion.div
+      initial={{ y: -10, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 1, ease: "easeInOut" }}
+      className="flex h-20 items-center justify-end px-6 mr-4"
+    >
       <ul className="flex items-center justify-center gap-6 mr-4 rounded-4xl px-4 py-1 text-[10px] ">
         {items.map((item, index) => {
           return (
@@ -32,6 +38,6 @@ export default function Navbar() {
         })}
       </ul>
       <ToggleTheme />
-    </div>
+    </motion.div>
   );
 }

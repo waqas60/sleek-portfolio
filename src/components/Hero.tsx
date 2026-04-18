@@ -1,9 +1,17 @@
+"use client";
 import Image from "next/image";
 import Socials from "./Social";
+import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <main className="mb-20">
+    <motion.main
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+      className="mb-20"
+    >
       <div className="flex items-center gap-6">
         <Image
           alt="waqas"
@@ -26,8 +34,7 @@ export default function Hero() {
         </div>
       </div>
 
-      
       <Socials />
-    </main>
+    </motion.main>
   );
 }
