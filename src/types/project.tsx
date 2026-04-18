@@ -5,4 +5,10 @@ export type ProjectType = {
   githubLink: string;
   tagsName: string[];
   imageUrl: string;
+  status: STATUS;
 };
+
+export enum STATUS {
+  LIVE = "Live",
+  BUILDING = "building",
+}

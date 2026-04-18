@@ -12,6 +12,7 @@ export default function GithubGraph() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 1, ease: "easeOut" }}
+      className="mt-20"
     >
       <h1 className="mb-4 text-md font-semibold">Github</h1>
 

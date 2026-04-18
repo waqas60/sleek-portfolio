@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 export default function Projects({ limit }: { limit?: number }) {
   return (
     <motion.div
-      className="my-4 grid grid-cols-1 gap-4"
+      className="grid grid-cols-1 gap-4"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
@@ -20,6 +20,7 @@ export default function Projects({ limit }: { limit?: number }) {
             key={index}
             title={project.title}
             description={project.description}
+            status={project.status}
             projectLink={project.projectLink}
             githubLink={project.githubLink}
             tagsName={project.tagsName}
@@ -27,6 +28,9 @@ export default function Projects({ limit }: { limit?: number }) {
           />
         );
       })}
+
+
+   
     </motion.div>
   );
 }
