@@ -19,7 +19,7 @@ export default function Hero() {
           src={"/assets/logo.jpg"}
           width={70}
           height={70}
-          className="pointer-events-none size-14 sm:size-[70px] rounded-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] select-none flex-shrink-0"
+          className="pointer-events-none size-14 sm:size-17.5 rounded-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] select-none shrink-0"
         />
 
         <div className="min-w-0">
