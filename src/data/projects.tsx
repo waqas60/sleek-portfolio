@@ -5,7 +5,7 @@ const projects: ProjectType[] = [
     title: "NexusFlow",
     description:
       "Organize boards, streamline tasks, assign members, and track progress",
-    imageUrl: "/projects/Nexusflow.png",
+    imageUrl: "/Nexusflow.png",
     status: STATUS.LIVE,
     projectLink: "https://nexusflow-gilt.vercel.app/",
     githubLink: "https://github.com/waqas60/nexusflow",
@@ -15,11 +15,11 @@ const projects: ProjectType[] = [
     title: "PostShot",
     description:
       "Turn tweets into beautiful, shareable images for LinkedIn, Instagram, and beyond",
-    imageUrl: "/projects/coming_soon.png",
-    status: STATUS.BUILDING,
-    projectLink: "",
-    githubLink: "",
-    tagsName: ["coming soon"],
+    imageUrl: "/PostShot.png",
+    status: STATUS.LIVE,
+    projectLink: "https://postshot-app.vercel.app/",
+    githubLink: "https://github.com/waqas60/PostShot",
+    tagsName: ["TypeScript", "Next", "React", "Radix Ui"],
   },
 ];
 
