@@ -1,5 +1,4 @@
-"use client"
-
+"use client";
 import socials from "@/data/socials";
 import Link from "next/link";
 import { motion } from "motion/react";
