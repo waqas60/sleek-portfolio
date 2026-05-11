@@ -18,7 +18,7 @@ const socials: SocialType[] = [
   },
   { icon: <TbFileDownloadFilled />, 
     text: "Resume",
-    url:"https://drive.google.com/file/d/1F_qNJNrXLGK7GWW2job_2bSlIglDKR9x/view?usp=sharing"
+    url:"https://drive.google.com/file/d/1kc8UalofLVoKy7jmYLS2E-IoCSaLno-K/view?usp=sharing"
   },
 ];
 
